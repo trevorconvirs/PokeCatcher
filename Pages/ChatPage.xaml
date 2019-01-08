@@ -1,0 +1,19 @@
+﻿<local:BasePage x:TypeArguments="core:LoginViewModel" x:Class="PokeCatcher.ChatPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PokeCatcher"
+      xmlns:core="clr-namespace:PokeCatcher.Core;assembly=PokeCatcher.Core"
+                mc:Ignorable="d" 
+      x:Name="Page"
+      d:DesignHeight="650" d:DesignWidth="450"
+      Title="ChatPage">
+
+    <Border>
+        <Grid>
+
+       
+        </Grid>
+    </Border>
+</local:BasePage>
