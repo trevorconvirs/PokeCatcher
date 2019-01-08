@@ -1,0 +1,16 @@
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\bin\Debug\PokeCatcher.Core.dll
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\bin\Debug\PokeCatcher.Core.pdb
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\bin\Debug\Newtonsoft.Json.dll
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\bin\Debug\Newtonsoft.Json.xml
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\obj\Debug\PokeCatcher.Core.csprojAssemblyReference.cache
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\obj\Debug\PokeCatcher.Core.csproj.CoreCompileInputs.cache
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\obj\Debug\PokeCatcher.Core.csproj.CopyComplete
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\obj\Debug\PokeCatcher.Core.dll
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\obj\Debug\PokeCatcher.Core.pdb
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\bin\Debug\Ninject.dll
+C:\Users\tconvirs\Source\repos\Examples\PokeCatcher.Core\bin\Debug\Ninject.xml
+C:\Users\tconvirs\Source\repos\PokeCatcherSolution\PokeCatcher\PokeCatcher.Core\obj\Debug\PokeCatcher.Core.csprojAssemblyReference.cache
+C:\Users\tconvirs\Source\repos\PokeCatcherSolution\PokeCatcher\PokeCatcher.Core\obj\Debug\PokeCatcher.Core.csproj.CoreCompileInputs.cache
+C:\Users\tconvirs\Source\repos\PokeCatcherSolution\PokeCatcher\PokeCatcher.Core\obj\Debug\PokeCatcher.Core.dll
+C:\Users\tconvirs\Source\repos\PokeCatcherSolution\PokeCatcher\PokeCatcher.Core\obj\Debug\PokeCatcher.Core.pdb
