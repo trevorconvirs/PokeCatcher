@@ -133,7 +133,7 @@
                                      Converter={local:ApplicationPageValueConverter}}"
                    Background="Transparent"/>
 
-            <!-- Main background -->
+            <!-- Side Menu -->
             <local:SideMenuControl>
                 <local:ChatListControl VerticalAlignment="Top"/>
             </local:SideMenuControl>

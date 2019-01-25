@@ -1,4 +1,4 @@
-﻿using Ninject;
+﻿
 using PokeCatcher.Core;
 using System;
 using System.Diagnostics;
@@ -7,7 +7,7 @@ using System.Globalization;
 namespace PokeCatcher
 {
     /// <summary>
-    /// Converts a string name to a service pulled from the IoC containter
+    /// Converts a string name to a service pulled from the IoC container
     /// </summary>
     public class IoCConverter : BaseValueConverter<IoCConverter>
     {
