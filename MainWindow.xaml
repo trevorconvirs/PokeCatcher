@@ -21,7 +21,7 @@
                 <Setter.Value>
                     <ControlTemplate TargetType="{x:Type Window}">
                         <!--outer border with drop shadow margin -->
-                        <Border Margin="{Binding OuterMarginSizeThicknes, FallbackValue=10}">
+                        <Border Padding="{Binding OuterMarginSizeThicknes, FallbackValue=10}">
                             <!--Main window outline -->
                             <Grid>
 
@@ -126,12 +126,22 @@
             <Grid.Background>
                 <ImageBrush ViewportUnits="Absolute" Viewport="300 310 400 400" ImageSource="/Images/Backgrounds/icon.png" Opacity=".1"/>
             </Grid.Background>
-            <Frame x:Name="MainFrame" 
+            
+            
+            <!--<Frame x:Name="MainFrame" 
                    Grid.Column="1" 
                    Content="{Binding ApplicationViewModel.CurrentPage, 
                                      Source={x:Static local:ViewModelLocator.Instance},  
                                      Converter={local:ApplicationPageValueConverter}}"
-                   Background="Transparent"/>
+                   Background="Transparent"/>-->
+
+            <local:PageHost Grid.Column="1" 
+                  d:DataContext=""
+                  DataContext="{Binding ApplicationViewModel.CurrentPage, 
+                                     Source={x:Static local:ViewModelLocator.Instance},  
+                                     Converter={local:ApplicationPageValueConverter}}"
+                  CurrentPage="{Binding}"
+                />
 
             <!-- Side Menu -->
             <local:SideMenuControl Width ="300" local:AnimateSlideInFromLeftProperty.Value="{Binding ApplicationViewModel.SideMenuVisible, 

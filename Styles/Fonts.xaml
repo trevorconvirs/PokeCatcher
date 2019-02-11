@@ -24,10 +24,11 @@
     <Style TargetType="{x:Type TextBlock}" BasedOn="{StaticResource BaseTextBlockStyle}"/>
     <Style TargetType="{x:Type ListView}" BasedOn="{StaticResource BaseStyle}"/>
 
-    <system1:Double x:Key="FontSizeSmall">14</system1:Double>
-    <system1:Double x:Key="FontSizeAverage">18</system1:Double>
-    <system1:Double x:Key="FontSizeRegular">20</system1:Double>
-    <system1:Double x:Key="FontSizeLarge">30</system1:Double>
+    <system1:Double x:Key="FontSizeSmaller">10</system1:Double>
+    <system1:Double x:Key="FontSizeSmall">12</system1:Double>
+    <system1:Double x:Key="FontSizeRegular">14</system1:Double>
+    <!--<system1:Double x:Key="FontSizeRegular">14</system1:Double>-->
+    <system1:Double x:Key="FontSizeXXLarge">30</system1:Double>
     
     <system1:String x:Key="FontAwesomeChatIcon">&#xf086;</system1:String>
     <system1:String x:Key="FontAwesomeUserIcon">&#xf007;</system1:String>

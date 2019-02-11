@@ -13,7 +13,12 @@
     <Border>
         <Grid>
 
-       
+            <TextBlock 
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Text="Hello PokeCatcher" 
+                Foreground="White"
+                FontSize="40"/>
         </Grid>
     </Border>
 </local:BasePage>

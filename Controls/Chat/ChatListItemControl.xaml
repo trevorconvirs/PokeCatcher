@@ -6,7 +6,6 @@
              xmlns:local="clr-namespace:PokeCatcher"
              xmlns:core="clr-namespace:PokeCatcher.Core;assembly=PokeCatcher.Core"
              mc:Ignorable="d" 
-             Height="60"
              d:DesignHeight="60" d:DesignWidth="300">
 
     <UserControl.Resources>
@@ -35,13 +34,14 @@
                                     Visibility="{Binding NewContentAvail, Converter={local:BooleanToVisibilityConverter}, ConverterParameter=True}"
                                     />
 
-                                <!-- Profil Picture pa  dding -->
-                                <Border Grid.Column="0" Padding="8">
+                                <!-- Profile Picture padding -->
+                                <Border Grid.Column="0" Padding="8 15" >
 
                                     <!-- Profile picture background -->
                                     <Border Background="{Binding ProfilePictureRGB, Converter={local:StringRGPToBrushConverter}}"
-                                        Width="{Binding ActualHeight, RelativeSource={RelativeSource Self}}"
-                                        CornerRadius="{Binding ActualHeight, RelativeSource={RelativeSource Self}}">
+                                            Height="40"
+                                            Width="{Binding ActualHeight, RelativeSource={RelativeSource Self}}"
+                                            CornerRadius="{Binding ActualHeight, RelativeSource={RelativeSource Self}}">
 
                                         <!-- Profile Picture Initials -->
                                         <TextBlock Text="{Binding Initials}"
