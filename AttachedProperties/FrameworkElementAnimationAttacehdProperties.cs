@@ -72,15 +72,17 @@ namespace PokeCatcher
     /// </summary>
     public class AnimateSlideInFromLeftProperty : AnimateBaseProperty<AnimateSlideInFromLeftProperty>
     {
-        protected override void DoAnimation(FrameworkElement element, bool value)
+        protected override async void DoAnimation(FrameworkElement element, bool value)
         {
             if (value)
             {
                 // Animate in
+                await element.SlideAndFadeInFromRight(FirstLoad ? 0 : 0.3f, keepMargin: false);
             }
             else
             {
                 // Animate out
+                await element.SlideAndFadeOutToLeft(FirstLoad ? 0 : 0.3f, keepMargin: false);
             }
         }
     }
