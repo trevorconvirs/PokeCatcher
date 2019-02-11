@@ -58,12 +58,14 @@
                                     <StackPanel Grid.Column="2" VerticalAlignment="Center">
                                         <!-- Name -->
                                         <TextBlock Text="{Binding Name}" 
+                                               Padding="0 0 0 2"
                                                Foreground ="{StaticResource TealBlueBrush}"
                                                TextTrimming="CharacterEllipsis"
                                                FontFamily="{StaticResource LatoRegular}"/>
 
                                         <!-- Message -->
                                         <TextBlock Text="{Binding Message}" 
+                                               Padding="0 2 0 0"
                                                Foreground="{StaticResource ForegroundDarkBrush}"
                                                TextTrimming="CharacterEllipsis"
                                                FontFamily="{StaticResource LatoRegular}"/>

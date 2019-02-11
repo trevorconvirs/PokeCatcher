@@ -1,0 +1,65 @@
+﻿<UserControl x:Class="PokeCatcher.ChatMessageListItemControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PokeCatcher"
+             mc:Ignorable="d" 
+             d:DesignWidth="300"
+             >
+    <Border Padding="5" Background="{StaticResource LightRedBrush}">
+        <Grid>
+
+            <!-- Profile picture -->
+            <Border VerticalAlignment="Top"
+                    HorizontalAlignment="Left"
+                    Margin="0 7.5 0 7.5"
+                    CornerRadius="{Binding ActualWidth, RelativeSource={RelativeSource Self}}"
+                    Height="{Binding ActualWidth, RelativeSource={RelativeSource Self}}"
+                    Width="35"
+                    Background="BlueViolet"
+                    BorderBrush="{StaticResource ForegroundLightBrush}"
+                    BorderThickness="1">
+                <TextBlock 
+                    VerticalAlignment="Center" 
+                    HorizontalAlignment="Center" 
+                    Foreground="{StaticResource ForegroundLightBrush}"
+                    Text="TC"
+                    FontSize="{StaticResource FontSizeLarge}"
+                    />
+            </Border>
+
+            <!-- Chat message container -->
+            <Grid Margin="25 0 0 0">
+
+                <Grid.RowDefinitions>
+                    <!-- Text Block -->
+                    <RowDefinition Height="*"/>
+                    <!-- Triangle -->
+                    <RowDefinition Height="Auto"/>
+                    <!-- Time Stamp -->
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                
+                <!-- Speech bubble rectangle -->
+                <Border CornerRadius="10"
+                    Padding="15"
+                    Background="{StaticResource ForegroundLightBrush}">
+
+                    <!-- Message Text -->
+                    <TextBlock VerticalAlignment="Center"
+                   Text="This is a chat bubble, you know?"
+                   Foreground="{StaticResource MedRedBrush}"
+                   TextWrapping="Wrap"/>
+
+                </Border>
+
+                <Path Grid.Row="1" StrokeThickness="0" 
+                      Fill="{StaticResource ForegroundLightBrush}"
+                      Margin="15 0 15 0"
+                      Data="M 0,-1 L 11,5 L 11,-1"/>
+            </Grid>
+        </Grid>
+
+    </Border>
+</UserControl>
