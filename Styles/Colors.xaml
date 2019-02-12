@@ -32,7 +32,7 @@
     <Color x:Key="TealBlue">#37718E</Color>
     <SolidColorBrush x:Key="TealBlueBrush" Color="{StaticResource TealBlue}"/>
 
-    <Color x:Key="VeryLightBlue">#ecf6fb</Color>
+    <Color x:Key="VeryLightBlue">#c3e5f3</Color>
     <SolidColorBrush x:Key="VeryLightBlueBrush" Color="{StaticResource VeryLightBlue}"/>
 
     <Color x:Key="Blond">#F4F1BB</Color>
@@ -40,4 +40,6 @@
 
     <Color x:Key="TerraCotta">#ED6A5A</Color>
     <SolidColorBrush x:Key="TerraCottaBrush" Color="{StaticResource TerraCotta}"/>
+    
+    
 </ResourceDictionary>

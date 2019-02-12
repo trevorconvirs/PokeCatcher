@@ -97,6 +97,10 @@
     <Compile Include="Controls\SideMenuControl.xaml.cs">
       <DependentUpon>SideMenuControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converters\SentByMeBackgroundConverter.cs" />
+    <Compile Include="Converters\SentByMeAlignmentConverter.cs" />
+    <Compile Include="Converters\TimeToReadTimeConverter.cs" />
+    <Compile Include="Converters\TimeToDisplayTimeConverter.cs" />
     <Compile Include="Converters\IoCConverter.cs" />
     <Compile Include="Converters\BooleanToVisibilityConverter.cs" />
     <Compile Include="Converters\StringRGPToBrushConverter.cs" />
