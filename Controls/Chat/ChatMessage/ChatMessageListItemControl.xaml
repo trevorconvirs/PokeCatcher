@@ -30,7 +30,7 @@
             </Border>
 
             <!-- Chat message container -->
-            <Grid Margin="25 0 0 0">
+            <Grid Margin="25 0 0 0" HorizontalAlignment="Left">
 
                 <Grid.RowDefinitions>
                     <!-- Text Block -->
@@ -44,6 +44,7 @@
                 <!-- Speech bubble rectangle -->
                 <Border CornerRadius="10"
                     Padding="15"
+                    HorizontalAlignment="Left"
                     Background="{StaticResource ForegroundLightBrush}">
 
                     <!-- Message Text -->
@@ -54,10 +55,18 @@
 
                 </Border>
 
+                <!-- Chat bubble anchor -->
                 <Path Grid.Row="1" StrokeThickness="0" 
                       Fill="{StaticResource ForegroundLightBrush}"
                       Margin="15 0 15 0"
                       Data="M 0,-1 L 11,5 L 11,-1"/>
+
+                <TextBlock Grid.Row="2"
+                    Text="8:08am"
+                    Foreground="{StaticResource BackgroundLightBrush}"
+                    HorizontalAlignment="Right"
+                    FontSize="{StaticResource FontSizeSmall}"/>
+
             </Grid>
         </Grid>
 
